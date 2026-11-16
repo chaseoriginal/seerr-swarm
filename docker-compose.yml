@@ -1,6 +1,6 @@
 services:
   seerr:
-    image: ghcr.io/seerr-team/seerr:latest
+    image: v3.5.2
     init: true
     container_name: seerr-swarm_seerr
     environment:
